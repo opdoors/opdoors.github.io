@@ -95,7 +95,7 @@ $(function() {
     animateCss(elements[i], "animated zoomIn");
   }
 
-  $("#onload-container").delay(1600).animate({opacity: 0.65}, 1000, function() {
+  $("#onload-container").delay(600).animate({opacity: 0.55}, 1000, function() {
     animateCss("#name", "animated fadeOut", "0.0");
     animateCss("#title", "animated fadeOut", "0.0");
     //$("#tour").delay(1200).fadeIn(1000);
