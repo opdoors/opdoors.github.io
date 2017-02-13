@@ -202,7 +202,7 @@ form {
 #onload-container-img {
   position: absolute;
   background-image: url("../img/0.png");
-  background-size: 100%;
+  background-size: cover;
   z-index: 0;
 }
 
