@@ -7,7 +7,7 @@
     <meta charset="utf-8">
   </head>
 
-  <body style="background-color:black;">
+  <body style="background-color:#212225;">
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
@@ -19,45 +19,64 @@
               <source src="movie7.mp4" type="video/mp4">
           </video>
         </div>
-        <div class="center-align" style="padding-top:30vh;">
-          <h1 class="text col s12 m6 l12 regular" style="color:#ffd101;"><strong>OpenDoors</strong></h1>
-          <h3 class="text col s12 m6 l12 light" style="color:#ffd101;">make university great again</h3>
+        <div class="center-align col s12 m6 l12" style="padding-top:30vh;">
+          <h1 class="header" style="color:#ffd101;">OpenDoors</h1>
+          <h4 class="header" style="color:#ffd101;">make university great again</h4>
         </div>
-
     </div>
 
     <div class="col s12 m6 l12" style="height:90vh; padding-top:10vh;" align="center">
       <h1 class="light" style="color:white;">О системе</h1>
-      <div style="padding-top:20vh; width:70vw; opacity:1.0;">
-        <p class="flow-text white-text"><strong class="regular" style="color:#ffd101;">OpenDoors</strong> – система, позволяющая осуществлять обнаружение и отслеживание студента, а также предоставлять навигацию в рамках территории университета, в частности внутри зданий, и организовать двухсторонний канал обмена информацией между смартфоном посетителя и университетом.</p>
+      <div style="padding-top:15vh; width:70vw; opacity:1.0;">
+        <p class="flow-text white-text"><strong class="regular" style="color:#ffd101;">OpenDoors</strong> – это система, которая позволит осуществлять обнаружение и отслеживание студента на территории университета, в частности внутри зданий, обеспечить автоматизированный доступ к учебной информации при пересечении студентом границ аудитории и организовать канал обмена информацией между студентами, преподавателями и администрацией университета.</p>
       </div>
     </div>
 
     <div class="col s12 m6 l12" style="min-height:90vh; padding-top:10vh;" align="center">
       <h1 class="light" style="color:white;">Сценарий использования</h1>
-      <div style="padding-top:20vh; width:70vw;">
-        <p class="flow-text white-text">ЗДЕСЬ БУДЕТ КРАСИВАЯ <strong class="regular" style="color:#ffd101;">ГРАФИКА</strong> !!!!11111!!!11!!</p>
+        <div class="row" style="padding-top:10vh; width:70vw;">
+          <div class="col s12 m6 l12 black-card white-text hoverable valign-wrapper" style="margin-bottom:5vh;">
+                <div class="card-image col s12 m3 l4">
+                  <img src="img/main.svg" style="max-width:15vw;">
+                </div>
+                <div class="card-content col s12 m3 l8 valign">
+                  <h4 class="card-title">Навигация</h4>
+                  <p>Система определит местоположение пользователя, подскажет иннформацию о помещениях рядом, построит маршрут до нужной аудитории и проведет по коридорам здания</p>
+                </div>
+          </div>
+          <div class="col s12 m6 l12 black-card white-text hoverable valign-wrapper" style="margin-bottom:5vh;">
+                <div class="card-image col s12 m3 l4 hide-on-med-and-up">
+                  <img src="img/main.svg" style="max-width:15vw;">
+                </div>
+                <div class="card-content col s12 m3 l8 valign">
+                  <h4 class="card-title">Учет посещений</h4>
+                  <p>Система автоматически соберет информацию о студентах, присутствующих на занятии. Мгновенно отобразит собранные данные старосте и преподавателю</p>
+                </div>
+                <div class="card-image col s12 m3 l4 hide-on-small-only">
+                  <img src="img/main.svg" style="max-width:15vw;">
+                </div>
+          </div>
+          <div class="col s12 m6 l12 black-card white-text hoverable valign-wrapper" style="margin-bottom:5vh;">
+                <div class="card-image col s12 m3 l4">
+                  <img src="img/main.svg" style="max-width:15vw;">
+                </div>
+                <div class="card-content col s12 m3 l8 valign">
+                  <h4 class="card-title">Материалы занятия</h4>
+                  <p>Работа сети беспроводных устройств-маячков тесно связана с расписанием занятий в ВУЗе. При обнаружении студента в аудитории система предложит все материалы, относящиеся к текущему занятию и курсу, в целом. Ровно то, что необходимо здесь и сейчас</p>
+                </div>
+          </div>
       </div>
     </div>
 
     <div class="col s12 m6 l12" style="min-height:90vh; padding-top:10vh;" align="center">
       <h1 class="light" style="color:white;">Используемые технологии</h1>
-      <div class="row" style="padding-top:20vh; max-width:70vw;">
-        <div class="col s12 m6 l6 black-card white-text">
+      <div class="row" style="padding-top:10vh; max-width:70vw;">
+        <div class="col s12 m6 l12 black-card white-text hoverable">
               <div class="card-image">
-                <img src="img/touch.png" style="max-width:10vw;">
+                <img src="img/beacon.png" style="max-width:15vw;">
               </div>
               <div class="card-content">
-                <span class="card-title">Отпечаток пальца</span>
-                <p>Мы используем самый "нетеряемый" и "неоставляемый дома" вариант пропуска в помещения.</br>Доступ на территорию университета, в помещения с ограниченным уровнем доступа и идентификация посетителя осуществляются мгновенно, без проблем карточки-пропуска или студенческого билета.</p>
-              </div>
-        </div>
-        <div class="col s12 m6 l6 black-card white-text">
-              <div class="card-image">
-                <img src="img/beacon.png" style="max-width:10vw;">
-              </div>
-              <div class="card-content">
-                <span class="card-title">Bluetooth Beacon</span>
+                <h4 class="card-title">Bluetooth Beacon</h4>
                 <p>Мы используем беспроводной интерфейс связи для определения присутствия посетителя в помещении. Никаких бумажных журналов посещения или электронных таблиц с ручным вводом – все автоматизированно.</br>Помимо этого весь контент и интерфейс приложения подстраивается под локацию - все что нужно вам здесь и сейчас.</p>
               </div>
         </div>
@@ -66,8 +85,11 @@
 
     <div class="col s12 m6 l12" style="min-height:100vh;" align="center">
       <h1 class="light" style="padding-top:30vh; color:#ffd101;">OpenDoors</h1>
-      <a class="waves-effect waves-light btn col s6 m3 l6" style="background-color:#ffd101; color:black;" href="http://www.iu6.bmstu.ru">МГТУ ИУ6</a>
-      <a class="waves-effect waves-light btn col s6 m3 l6" style="background-color:#ffd101; color:black;" href="https://iot.bmstu.net">Хакатон</a>
+      <div style="padding-bottom:3vh;">
+        <a class="waves-effect waves-light btn col s6 m3 l6" style="background-color:#ffd101; color:black;" href="http://www.iu6.bmstu.ru">МГТУ ИУ6</a>
+        <a class="waves-effect waves-light btn col s6 m3 l6" style="background-color:#ffd101; color:black;" href="https://iot.bmstu.net">Хакатон</a>
+      </div>
+      <a class="waves-effect waves-light btn col s12 m6 l12" style="background-color:black; color:#ffd101;" href="mailto:spasenkin8@gmail.com,cvkucherov@yandex.ru?Subject=Проект%20OpenDoors">Написать нам</a>
     </div>
 
   </body>
