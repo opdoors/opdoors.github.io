@@ -1,165 +1,74 @@
 <!doctype html>
 <html>
   <head>
-    <title>Open Doors - new way to organize</title>
-
-    <meta charset="utf-8"/>
+    <title>OpenDoors: university</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="utf-8">
   </head>
 
-  <body>
+  <body style="background-color:black;">
+    <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
-    <script src="scripts/script.js"></script>
 
-    <div class="row full-size" id="onload-container-img">
-    </div>
-
-    <div class="row valign-wrapper full-size" id="onload-container">
-      <h1 class="col s12 m6 l6 valign white-text center" id="name">OpenDoors</h1>
-      <h4 class="col s12 m6 l6 valign white-text center" id="title">новый вид взаимодействия с посетителями</h4>
-    </div>
-
-    <div class="row" id="tour-container">
-      <h1 class="col s12 m12 l12 valign white-text center not-displayed" id="tour" onclick="collapseToNavbar()">Начать знакомство</h1>
-    </div>
-
-    <div class="not-displayed center" id="page-content">
-      <div class="blacked">
-        <div class="row full-size valign-wrapper">
-          <div class="col s12 m12 l12 valign">
-            <div class="container white-text" id="badge">
-              <h1>OpenDoors</h1>
-              <h4>Платформа для организации взаимодействия с посетителями</h4>
-            </div>
-          </div>
+    <div class="col s12 m6 l12" style="height:100vh; width: 100vw;">
+        <!--<img src="img/0.png" alt="OpenDoors:event" style="height:100vh; width:100vw;">-->
+        <div class="hide-on-small-only" style="position:absolute; top: -10vh; left: -10vw; z-index: -2;">
+          <video class="responsive-video" style="height:120vh; width:120vw;" autoplay loop muted>
+              <source src="movie7.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="center-align" style="padding-top:30vh;">
+          <h1 class="text col s12 m6 l12 regular" style="color:#ffd101;"><strong>OpenDoors</strong></h1>
+          <h3 class="text col s12 m6 l12 light" style="color:#ffd101;">make university great again</h3>
         </div>
 
-        <div class="row">
-          <div class="container" id="tips">
-            <div class="row padded-top" id="first-tip">
-              <div class="col s12 m6 l6 white-text">
-                <h3 class="left-align not-visible" id="step1" style="height: 100%">Получите готовую инфраструктуру</h3>
+    </div>
+
+    <div class="col s12 m6 l12" style="height:90vh; padding-top:10vh;" align="center">
+      <h1 class="light" style="color:white;">О системе</h1>
+      <div style="padding-top:20vh; width:70vw; opacity:1.0;">
+        <p class="flow-text white-text"><strong class="regular" style="color:#ffd101;">OpenDoors</strong> – система, позволяющая осуществлять обнаружение и отслеживание студента, а также предоставлять навигацию в рамках территории университета, в частности внутри зданий, и организовать двухсторонний канал обмена информацией между смартфоном посетителя и университетом.</p>
+      </div>
+    </div>
+
+    <div class="col s12 m6 l12" style="min-height:90vh; padding-top:10vh;" align="center">
+      <h1 class="light" style="color:white;">Сценарий использования</h1>
+      <div style="padding-top:20vh; width:70vw;">
+        <p class="flow-text white-text">ЗДЕСЬ БУДЕТ КРАСИВАЯ <strong class="regular" style="color:#ffd101;">ГРАФИКА</strong> !!!!11111!!!11!!</p>
+      </div>
+    </div>
+
+    <div class="col s12 m6 l12" style="min-height:90vh; padding-top:10vh;" align="center">
+      <h1 class="light" style="color:white;">Используемые технологии</h1>
+      <div class="row" style="padding-top:20vh; max-width:70vw;">
+        <div class="col s12 m6 l6 black-card white-text">
+              <div class="card-image">
+                <img src="img/touch.png" style="max-width:10vw;">
               </div>
-
-              <div class="col s12 m6 l6 not-visible" id="step111">
-                <div class="row" style="height: 100%; width: 100%">
-                  <img src="img/net.svg" class="col s12 m6 l6" style="max-height: 60%; max-width: 60%; color: indigo"/>
-                </div>
+              <div class="card-content">
+                <span class="card-title">Отпечаток пальца</span>
+                <p>Мы используем самый "нетеряемый" и "неоставляемый дома" вариант пропуска в помещения.</br>Доступ на территорию университета, в помещения с ограниченным уровнем доступа и идентификация посетителя осуществляются мгновенно, без проблем карточки-пропуска или студенческого билета.</p>
               </div>
-            </div>
-
-            <div class="row padded-top" id="second-tip">
-              <div class="col s12 m6 l6 not-visible" id="step2">
-                <div class="row" style="height: 60%; width: 60%">
-                  <img src="img/cloud.svg" class="col s12 m12 l12"/>
-                </div>
+        </div>
+        <div class="col s12 m6 l6 black-card white-text">
+              <div class="card-image">
+                <img src="img/beacon.png" style="max-width:10vw;">
               </div>
-
-              <div class="col s12 m6 l6 white-text">
-                <h3 class="right-align not-visible" id="step22" style="height: 100%">Интегрируйтесь с API</h3>
-
+              <div class="card-content">
+                <span class="card-title">Bluetooth Beacon</span>
+                <p>Мы используем беспроводной интерфейс связи для определения присутствия посетителя в помещении. Никаких бумажных журналов посещения или электронных таблиц с ручным вводом – все автоматизированно.</br>Помимо этого весь контент и интерфейс приложения подстраивается под локацию - все что нужно вам здесь и сейчас.</p>
               </div>
-            </div>
-
-            <div class="row padded-top" id="third-tip">
-              <div class="col s12 m6 l6 white-text">
-                <h3 class="left-align not-visible" id="step3" style="height: 100%">Используйте OpenDoors</h3>
-
-              </div>
-
-              <div class="col s12 m6 l6 not-visible" id="step333">
-                <div class="row" style="height: 60%; width: 60%">
-                  <img src="img/apps.svg" class="col s12 m12 l12"/>
-                </div>
-              </div>
-
-            </div>
-
-          </div>
-
         </div>
       </div>
-
-      <div class="row" id="cases">
-        <div class="parallax-container">
-          <div class="container">
-            <h1 class="header center white-text text-lighten-2" style="margin-top:15%;">Торговый центр</h1>
-            <div class="row center">
-              <a class="waves-effect waves-light btn-large white black-text" id="btn-mall" href="mall.html">Узнать больше</a>
-            </div>
-          </div>
-          <div class="parallax">
-            <img src="img/3.jpg"/>
-          </div>
-        </div>
-
-        <div class="section grey darken-4" align="center">
-          <div class="row container case-card">
-
-          </div>
-        </div>
-
-        <div class="parallax-container">
-          <div class="container">
-            <h1 class="header center white-text text-lighten-2" style="margin-top:15%;">Учебное заведение</h1>
-            <div class="row center">
-              <a class="waves-effect waves-light btn-large white black-text" id="btn-university" href="university.html">Узнать больше</a>
-            </div>
-          </div>
-          <div class="parallax">
-            <img src="img/4.jpg"/>
-          </div>
-        </div>
-
-        <div class="section grey darken-4" align="center">
-          <div class="row container case-card">
-
-          </div>
-        </div>
-
-        <div class="parallax-container">
-          <div class="container">
-            <h1 class="header center white-text text-lighten-2" style="margin-top:15%;">Массовое мероприятие</h1>
-            <div class="row center">
-              <a class="waves-effect waves-light btn-large white black-text" id="btn-event" href="event.html">Узнать больше</a>
-            </div>
-          </div>
-          <div class="parallax">
-            <img src="img/5.jpg"/>
-          </div>
-        </div>
-
-      </div>
-
-
-      <footer class="page-footer">
-        <div class="container" align="left">
-          <div class="row">
-            <div class="col l9 s12">
-              <h5 class="white-text">Команда</h5>
-              <p class="grey-text text-lighten-4">Бородин Александр, Венгер Олег, Кучеров Кирилл, Одишария Георгий, Петрова Яна, Спасенкин Евгений, Шахлан Анастасия</p>
-            </div>
-
-            <div class="col l3 s12">
-              <h5 class="white-text">Ссылки</h5>
-              <a href="http://iot.bmstu.net" style="color:white;">Хакатон</a>
-              <br>
-              <a href="http://iu6.bmstu.ru" style="color:white;">Кафедра</a>
-            </div>
-
-          </div>
-        </div>
-        <div class="footer-copyright">
-          <div class="container">
-            © 2017 Made in <a class="brown-text text-lighten-3" href="http://iu6.bmstu.ru">BMSTU</a>
-          </div>
-        </div>
-      </footer>
-
     </div>
+
+    <div class="col s12 m6 l12" style="min-height:100vh;" align="center">
+      <h1 class="light" style="padding-top:30vh; color:#ffd101;">OpenDoors</h1>
+      <a class="waves-effect waves-light btn col s6 m3 l6" style="background-color:#ffd101; color:black;" href="http://www.iu6.bmstu.ru">МГТУ ИУ6</a>
+      <a class="waves-effect waves-light btn col s6 m3 l6" style="background-color:#ffd101; color:black;" href="https://iot.bmstu.net">Хакатон</a>
+    </div>
+
   </body>
 </html>
